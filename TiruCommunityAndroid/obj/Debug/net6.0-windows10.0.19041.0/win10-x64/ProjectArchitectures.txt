@@ -1,0 +1,1 @@
+E:\Community\TDCommunityAndroid\TiruCommunityAndroid\TiruCommunityAndroid.csproj;x64

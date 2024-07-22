@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TiruCommunityAndroid.Auth_UI.Login"
+             Title="Login"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="220"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Frame BackgroundColor="{DynamicResource Secondary}"  HeightRequest="60" WidthRequest="60" CornerRadius="30" Padding="0" Margin="5">
+            <Image Source="https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_user2-256.png" Aspect="AspectFill" Margin="0"></Image>
+        </Frame>
+        <ActivityIndicator x:Name="activityIndicator" IsRunning="{Binding IsLoggingIn}" IsVisible="{Binding IsLoggingIn}" Color="{DynamicResource PrimaryColor}" />
+
+        <Grid RowSpacing="5" Grid.Row="1" Margin="20,20,20,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="1" Text="Welcome!" HorizontalOptions="Center" FontSize="Title" FontAttributes="Bold" Padding="0" Margin="0"></Label>
+            <Label Grid.Row="2" Text="Sign in to Continue" HorizontalOptions="Center" FontSize="Subtitle"></Label>
+            <StackLayout Grid.Row="3" Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+                <Label Text="{Binding ErrorMessage}" TextColor="Red" IsVisible="{Binding ShowErrorMessage}" Margin="0,0,0,5" />
+                <Frame BackgroundColor="Transparent" BorderColor="{DynamicResource Tertiary}" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                    <StackLayout Orientation="Horizontal">
+                        <Frame BackgroundColor="{DynamicResource Secondary}"  HeightRequest="30" WidthRequest="30" CornerRadius="30" Padding="0" Margin="5"> 
+                            <Image Source="https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_user2-256.png" Aspect="AspectFill" Margin="0"></Image>
+                        </Frame>
+                        <Entry Text="{Binding UserName}" Placeholder="Username" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"></Entry>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="Transparent" BorderColor="{DynamicResource Tertiary}" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30" Margin="0,15,0,0">
+                    <StackLayout Orientation="Horizontal">
+                        <Frame BackgroundColor="{DynamicResource Secondary}"  HeightRequest="30" WidthRequest="30" CornerRadius="30" Padding="0" Margin="5">
+                            <Image Source="https://cdn0.iconfinder.com/data/icons/basic-ui-elements-round/700/09_lock-256.png" Aspect="AspectFill" Margin="0"></Image>
+                        </Frame>
+                        <Entry IsPassword="True" Text="{Binding Password}" Placeholder="Password" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"></Entry>
+                    </StackLayout>
+                </Frame>
+
+                <Button Text="SIGN IN" BackgroundColor="{DynamicResource Primary}"  TextColor="{DynamicResource Secondary}" CornerRadius="30" WidthRequest="200" Margin="0,15,0,0" Command="{Binding LoginCommand}"></Button>
+            </StackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net6.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TiruCommunityAndroid
+build_property.ProjectDir = E:\Community\TDCommunityAndroid\TiruCommunityAndroid\
+
+[E:/Community/TDCommunityAndroid/TiruCommunityAndroid/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TiruCommunityAndroid.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[E:/Community/TDCommunityAndroid/TiruCommunityAndroid/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TiruCommunityAndroid.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[E:/Community/TDCommunityAndroid/TiruCommunityAndroid/Auth-UI/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TiruCommunityAndroid.Auth_UI.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Auth-UI\Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Auth-UI\Login.xaml
+
+[E:/Community/TDCommunityAndroid/TiruCommunityAndroid/LoadingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TiruCommunityAndroid.LoadingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LoadingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LoadingPage.xaml
+
+[E:/Community/TDCommunityAndroid/TiruCommunityAndroid/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TiruCommunityAndroid.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[E:/Community/TDCommunityAndroid/TiruCommunityAndroid/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TiruCommunityAndroid.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[E:/Community/TDCommunityAndroid/TiruCommunityAndroid/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TiruCommunityAndroid.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[E:/Community/TDCommunityAndroid/TiruCommunityAndroid/StudyBooking/AcAvailableStudyRoomHub.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TiruCommunityAndroid.StudyBooking.AcAvailableStudyRoomHub.xaml
+build_metadata.AdditionalFiles.TargetPath = StudyBooking\AcAvailableStudyRoomHub.xaml
+build_metadata.AdditionalFiles.RelativePath = StudyBooking\AcAvailableStudyRoomHub.xaml
+
+[E:/Community/TDCommunityAndroid/TiruCommunityAndroid/StudyBooking/AcBookedStudyRoomHub.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TiruCommunityAndroid.StudyBooking.AcBookedStudyRoomHub.xaml
+build_metadata.AdditionalFiles.TargetPath = StudyBooking\AcBookedStudyRoomHub.xaml
+build_metadata.AdditionalFiles.RelativePath = StudyBooking\AcBookedStudyRoomHub.xaml
+
+[E:/Community/TDCommunityAndroid/TiruCommunityAndroid/StudyBooking/NonAcAvailableStudyRoomHub.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TiruCommunityAndroid.StudyBooking.NonAcAvailableStudyRoomHub.xaml
+build_metadata.AdditionalFiles.TargetPath = StudyBooking\NonAcAvailableStudyRoomHub.xaml
+build_metadata.AdditionalFiles.RelativePath = StudyBooking\NonAcAvailableStudyRoomHub.xaml
+
+[E:/Community/TDCommunityAndroid/TiruCommunityAndroid/StudyBooking/NonAcBookedStudyRoomHub.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TiruCommunityAndroid.StudyBooking.NonAcBookedStudyRoomHub.xaml
+build_metadata.AdditionalFiles.TargetPath = StudyBooking\NonAcBookedStudyRoomHub.xaml
+build_metadata.AdditionalFiles.RelativePath = StudyBooking\NonAcBookedStudyRoomHub.xaml
+
+[E:/Community/TDCommunityAndroid/TiruCommunityAndroid/StudyBooking/SBHomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TiruCommunityAndroid.StudyBooking.SBHomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = StudyBooking\SBHomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = StudyBooking\SBHomePage.xaml
+
+[E:/Community/TDCommunityAndroid/TiruCommunityAndroid/StudyBooking/StudyRoomList.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TiruCommunityAndroid.StudyBooking.StudyRoomList.xaml
+build_metadata.AdditionalFiles.TargetPath = StudyBooking\StudyRoomList.xaml
+build_metadata.AdditionalFiles.RelativePath = StudyBooking\StudyRoomList.xaml

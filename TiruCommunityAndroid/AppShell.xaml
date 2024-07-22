@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="TiruCommunityAndroid.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TiruCommunityAndroid"
+    xmlns:auth="clr-namespace:TiruCommunityAndroid.Auth_UI"
+    xmlns:study="clr-namespace:TiruCommunityAndroid.StudyBooking">
+
+    <ShellItem>
+        <ShellContent x:Name="loginpage"
+                      ContentTemplate="{DataTemplate auth:Login}"
+                      Route="Login" />
+    </ShellItem>
+
+    <TabBar x:Name="studyhome" Route="studyhome">
+        <Tab Title="AC"
+            Icon="room_booked.png">
+            <ShellContent Title="Avialble"
+                         Icon="room_available.png"
+                         ContentTemplate="{DataTemplate study:AcAvailableStudyRoomHub}" Route="StudyRoomHub-AC-Available" x:Name="StudyRoomHubACAvailable"  />
+            <ShellContent Title="Booked"
+                         Icon="room_booked.png"
+                         ContentTemplate="{DataTemplate study:AcBookedStudyRoomHub}" Route="StudyRoomHub-AC-Booked"  x:Name="StudyRoomHubACBooked"/>
+        </Tab>
+        <Tab Title="Non AC"
+            Icon="room_booked.png">
+            <ShellContent Title="Avialble"
+                         Icon="room_available.png"
+                         ContentTemplate="{DataTemplate study:NonAcAvailableStudyRoomHub}" Route="StudyRoomHub-NonAC-Available"  x:Name="StudyRoomHubNonACAvailable" />
+            <ShellContent Title="Booked"
+                         Icon="room_booked.png"
+                         ContentTemplate="{DataTemplate study:NonAcBookedStudyRoomHub}" Route="StudyRoomHub-NonAC-Booked"  x:Name="StudyRoomHubNonACBooked" />
+        </Tab>
+        <Tab Title="Reports"
+            Icon="room_booked.png">
+            <ShellContent ContentTemplate="{DataTemplate study:SBHomePage}"/>
+        </Tab>
+        <Tab Title="Admin"
+            Icon="room_booked.png">
+            <ShellContent ContentTemplate="{DataTemplate study:SBHomePage}"/>
+        </Tab>
+    </TabBar>
+</Shell>

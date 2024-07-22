@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TiruCommunityAndroid.StudyBooking.NonAcAvailableStudyRoomHub"
+             Title="Non-AC Study Rooms"
+             xmlns:studycorecontrols="clr-namespace:TiruCommunityAndroid.StudyBooking">
+    <VerticalStackLayout>
+        <VerticalStackLayout>
+            <studycorecontrols:StudyRoomList x:Name="StudyRoomList" StudyRoomFilterDefinition="{Binding RoomFilter}" ></studycorecontrols:StudyRoomList>
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>
